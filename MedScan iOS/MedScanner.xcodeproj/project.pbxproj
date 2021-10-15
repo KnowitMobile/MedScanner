@@ -32,6 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49429A1427196B7500DA98F6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				49429A1627196B9400DA98F6 /* Wrappers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		49429A1527196B7C00DA98F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A486868127196A1800FA8530 /* MedScannerApp.swift */,
+				A486868327196A1800FA8530 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49429A1627196B9400DA98F6 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		49429A1727196B9C00DA98F6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A486867527196A1700FA8530 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +82,9 @@
 		A486868027196A1800FA8530 /* MedScanner */ = {
 			isa = PBXGroup;
 			children = (
-				A486868127196A1800FA8530 /* MedScannerApp.swift */,
-				A486868327196A1800FA8530 /* ContentView.swift */,
+				49429A1727196B9C00DA98F6 /* Extensions */,
+				49429A1527196B7C00DA98F6 /* Views */,
+				49429A1427196B7500DA98F6 /* Utils */,
 				A486868527196A1C00FA8530 /* Assets.xcassets */,
 				A486868727196A1C00FA8530 /* Preview Content */,
 			);
